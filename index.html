@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Free responsive business website template</title>
+      <link rel="stylesheet" href="css/components.css">
+      <link rel="stylesheet" href="css/icons.css">
+      <link rel="stylesheet" href="css/responsee.css">
+      <!-- CUSTOM STYLE -->      
+      <link rel="stylesheet" href="css/template-style.css">
+      <link href="https://fonts.googleapis.com/css?family=Barlow:100,300,400,700,800&amp;subset=latin-ext" rel="stylesheet">  
+      <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+      <script type="text/javascript" src="js/jquery-ui.min.js"></script>   
+   </head>
+
+   <body class="size-1520 primary-color-red background-dark margin-top-bottom-40">    
+    <!-- MAIN -->
+    <main role="main">      
+      <!-- SECTION 1 --> 
+      <section class="grid margin text-center">
+        <a class="s-12 m-6 l-3 padding-2x vertical-center margin-bottom background-red">
+          <i class="icon-sli-equalizer text-size-60 text-white center margin-bottom-15"></i>
+          <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-30 text-uppercase">Unlimited Color Variants</h3>
+        </a>
+        <a class="s-12 m-6 l-3 padding-2x vertical-center margin-bottom background-blue">
+          <i class="icon-sli-layers text-size-60 text-white center margin-bottom-15"></i>
+          <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-30 text-uppercase">Many Reusable Elements</h3>
+        </a>        
+        <a class="s-12 m-6 l-3 padding-2x vertical-center margin-bottom background-orange">
+          <i class="icon-sli-diamond text-size-60 text-white center margin-bottom-15"></i>
+          <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-30 text-uppercase">Responsive Layoute</h3>
+        </a>
+        <a class="s-12 m-6 l-3 padding-2x vertical-center margin-bottom background-aqua">
+          <i class="icon-sli-share text-size-60 text-white center margin-bottom-15"></i>
+          <h3 class="text-strong text-size-20 text-line-height-1 margin-bottom-30 text-uppercase">Clean Modern Code</h3>
+        </a>
+      </section>
+      
+      <!-- SECTION 4 -->
+      <h2 class="s-12 text-white text-thin text-size-30 text-white text-uppercase margin-top-bottom-40 center text-center">Top <b>References</b></h2>
+      <section class="grid margin">
+        <a class="s-12 m-6 margin-bottom">
+          <img class="full-img" src="img/portfolio/thumb-01.jpg" alt=""/>
+        </a>	
+        <a class="s-12 m-6 margin-bottom">
+          <img class="full-img" src="img/portfolio/thumb-02.jpg" alt=""/>
+        </a>	
+        <a class="s-12 m-6 margin-bottom">
+          <img class="full-img" src="img/portfolio/thumb-03.jpg" alt=""/>
+        </a>	
+        <a class="s-12 m-6 margin-bottom">
+          <img class="full-img" src="img/portfolio/thumb-04.jpg" alt=""/>
+        </a>	
+      </section>                
+    </main>    
+    <audio id="som" src="https://www.w3schools.com/html/horse.mp3" hidden></audio>     
+                                                          
+    <script type="text/javascript" src="js/responsee.js"></script>
+    <script type="text/javascript" src="js/template-scripts.js"></script>
+    <script type="text/javascript">
+      var som = document.getElementById("som");
+      $("section a").click(function(){
+        som.pause();
+        som.currentTime = 0;
+        som.play();
+      });
+    </script>
+
+   </body>
+</html>
